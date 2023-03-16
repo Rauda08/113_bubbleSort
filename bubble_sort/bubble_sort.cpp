@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
+
 int a[20];          // Deklarasi array a dengan ukuran 20
 int n;              // Deklarasi varibel n untuk menyimpan banyaknya elemen pada array
-
 
 void input() {      // procedure untuk input
     while (true) {  // Looping
@@ -21,7 +21,7 @@ void input() {      // procedure untuk input
     cout << "===================" << endl;      // Output ke layar
 
     for (int i = 0; i < n; i++) {               // Looping dengan i dimulai dari 0 hingga n-1
-        cout << "<" << (i + 1) << ">";          // Output ke layar
+        cout << "Data ke-" << (i + 1) << ":";          // Output ke layar
         cin >> a[i];                            // Input dari pengguna
     }
 }
