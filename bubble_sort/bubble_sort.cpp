@@ -37,7 +37,16 @@ void bubbleSortArray() {                            // procedur untuk mengurutka
     }
 }                          
         
-
+void unsorted() {
+    cout << endl;                                           // Output baris kosong
+    cout << "===============================" << endl;      // Output ke layer
+    cout << "Element Array yag belum tersusun" << endl;     // Output ke layer
+    cout << "===============================" << endl;      // Output ke layer
+    for (int j = 0; j < n; j++) {                           // Looping dengan j dimulai dari 0 hingga n-1
+        cout << a[j] << endl;                               // Output ke layar
+    }
+    cout << endl;                                   
+}
 
         
             
