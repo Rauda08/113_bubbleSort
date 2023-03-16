@@ -59,11 +59,11 @@ void display() {                                                  // procedure u
     cout << endl;                                               // Output baris kosong
 }
             
-   
+int main() {
+    input();                // Memanggil procedure read()
+    unsorted();             // Memangil procedure unsorted()
+    bubbleSortArray();      // Memanggil procedure bubbleSortArray()
+    display();              // Memanggil procedure display()
 
-
-int main()
-{
-    std::cout << "Hello World!\n";
-}
-
+    return 0;
+   }
